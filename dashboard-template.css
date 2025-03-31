@@ -1,0 +1,343 @@
+.dashboard-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr; 
+    margin-top: 30px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.tab-grid {
+    background-color: rgb(255, 255, 255);
+}
+.display-picture {
+    display: block;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    margin-left: 20px;
+}
+.display-name {
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.tab-grid-heading {
+    color: rgb(97, 94, 94);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    letter-spacing:2px;
+}
+.tab-href {
+    float: right;
+    font-size: 17px;
+    color: rgb(73, 72, 72);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.tab-hr{
+    background-color: white;
+    width: 100%;
+   
+}
+.tab-school-name {
+    color: rgb(68, 67, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.tab-welcome {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(234, 240, 234);
+}
+.tab-sub-grid {
+  display: grid;
+  grid-template-columns:2fr 2fr 2fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top: 40px;
+}
+.tab-nav {
+    background-color: brown;
+    height: 120px;
+}
+.tab-nav-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.tab-nav-paragraph {
+    color: rgb(255, 255, 255); 
+}
+.tab-nav-link {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(116, 33, 33);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(196, 196, 189);
+}
+.nav-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 101, 101);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.footer-company {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-hr {
+    text-align: center;
+    width: 400px;
+    height: 0.8px;
+    background-color: black;
+    border-color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.nav-hr {
+    margin-top: -5px;
+    background-color: white;
+}
+.list-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+/* styling for ADD STUDENTS */
+.add-student-inputs {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   height: 27px;
+   width: 250px;
+   border-radius: 10px;
+   border:1px;
+   margin-left: 20px;
+   background-color: rgb(243, 242, 238);
+}
+.add-student-label {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-student-submit {
+    padding: 8px 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: 1px;
+    border-radius: 8px;
+}
+.list-btn {
+    padding: 10px 13px;
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-color: black;
+    border-radius: 15px;
+    border: 1px;
+    font-size: 15px;
+    }
+    
+
+    .student_tbl{
+        width: 600px;
+        margin: 0 auto;
+        background-color: rgb(198, 202, 202);
+        text-align: center;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 25px;
+        
+    }
+    .logo {
+        border-radius: 50px;
+        width: 300px;
+        display: inline-block;
+    }
+    
+    .logo-div {
+      display: inline-block;
+    }
+
+    .test {
+        margin-top: 20px;
+    }
+
+    .contact-us-inputs {
+        border: 0;
+        margin-top: 25px;
+        background-color: rgb(236, 232, 232);
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        
+    }
+    .contact-us-submit {
+        background-color: rgb(8, 112, 8);
+        padding: 10px 18px;
+        color: white;
+        margin-top: 15px;
+        border: 0;
+        border-radius: 6px;
+        
+    }
+    .or {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .view-p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(53, 52, 52);
+    }
+    .subject {
+        margin-top: 20px;
+    }
+    .subject-inputs {
+        background-color: rgb(236, 234, 234);
+        width: 70px;
+        height: 23px;
+        border-radius: 7px;
+        border: 1 rgb(194, 190, 190);
+    }
+    .subject-inputs-remark {
+        background-color: rgb(236, 234, 234);
+        width: 170px;
+        height: 23px;
+        border-radius: 7px;
+        border: 1 rgb(194, 190, 190);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .logo {
+            border-radius: 50px;
+            width: 150px;
+            display: inline-block;
+        }
+        
+        .logo-div {
+          display: inline-block;
+        }
+
+        .menu-grid {
+            
+        }
+        .tab-grid {
+            background-color: rgb(255, 255, 255);
+            margin-top: 40px;
+        }
+        .dashboard-main-grid {
+            display: BLOCK;
+            grid-template-columns: 1fr 4fr; 
+            margin-top: 30px;
+            row-gap: 20px;
+            column-gap: 20px;
+            margin-bottom: 20px
+        }
+    
+        .tab-grid-heading {
+            color: rgb(97, 94, 94);
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: inline-block;
+            letter-spacing:2px;
+        }
+        .tab-href {
+            float: right;
+            font-size: 17px;
+            color: rgb(73, 72, 72);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+        }
+        .tab-hr{
+            background-color: white;
+            width: 100%;
+           
+        }
+        .tab-school-name {
+            color: rgb(68, 67, 67);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        .tab-welcome {
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2px;
+            background-color: rgb(234, 240, 234);
+            font-size: 12px;
+        }
+        .tab-sub-grid {
+          display: grid;
+          grid-template-columns:2fr 2fr ;
+          row-gap: 10px;
+          column-gap: 10px;
+          margin-top: 40px;
+          width: 400px;
+        }
+        .tab-nav {
+            background-color: brown;
+            height: 120px;
+        }
+        .tab-nav-head {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            margin-top: 20px;
+        }
+        .tab-nav-paragraph {
+            color: rgb(255, 255, 255); 
+        }
+        .tab-nav-link {
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(116, 33, 33);
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(196, 196, 189);
+        }
+        .nav-link {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            padding: 5px;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(104, 101, 101);
+            font-size: 15px;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+        .footer-hr {
+            text-align: center;
+            width: 250px;
+            height: 0.8px;
+            background-color: black;
+            border-color: black;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        
+    
+    }
+    
+   
+
+

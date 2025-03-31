@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(221, 205, 114);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    background-color: black;
+    margin-top: 40px;
+}
+.profile-name {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.logout {
+    color: rgb(204, 21, 21);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+
+}
+.school-name {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.teachers-dashboard {
+    text-align: center;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;margin-bottom: 30px;
+
+}
+.add-dashboard {
+    
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;margin-bottom: 30px;
+
+}
+.add-student-inputs {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   height: 27px;
+   width: 250px;
+   border-radius: 10px;
+   border:1px;
+   margin-left: 20px;
+   background-color: rgb(243, 242, 238);
+}
+.add-student-label {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-student-submit {
+    padding: 8px 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: 1px;
+    border-radius: 8px;
+}
+.footer-company {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-hr {
+    text-align: center;
+    width: 400px;
+    height: 0.8px;
+    background-color: black;
+    border-color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.list-btn {
+padding: 10px 13px;
+margin-top: 30px;
+color: white;
+background-color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+border-color: black;
+border-radius: 15px;
+border: 1px;
+font-size: 15px;
+}
+.list-btn:hover {
+background-color: rgb(255, 255, 255);
+color: black;
+font-size: 18px;
+}
