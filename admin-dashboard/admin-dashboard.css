@@ -1,0 +1,208 @@
+.dashboard-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr; 
+    margin-top: 30px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.tab-grid {
+    background-color: rgb(255, 255, 255);
+}
+.display-picture {
+    display: block;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    margin-left: 20px;
+}
+.display-name {
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.tab-grid-heading {
+    color: rgb(97, 94, 94);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    letter-spacing:2px;
+}
+.tab-href {
+    float: right;
+    font-size: 17px;
+    color: rgb(73, 72, 72);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.tab-hr{
+    background-color: white;
+    width: 100%;
+   
+}
+.tab-school-name {
+    color: rgb(68, 67, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.tab-welcome {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(234, 240, 234);
+}
+.tab-sub-grid {
+  display: grid;
+  grid-template-columns:2fr 2fr 2fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top: 40px;
+}
+.tab-nav {
+    background-color:rgb(230, 206, 74);
+    height: 120px;
+}
+.tab-nav-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(46, 44, 44);
+    margin-top: 20px;
+}
+.tab-nav-paragraph {
+    color: rgb(17, 17, 17); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tab-nav-link {
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(209, 181, 23);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 15, 15);
+}
+.nav-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 101, 101);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.footer-company {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-hr {
+    text-align: center;
+    width: 400px;
+    height: 0.8px;
+    background-color: black;
+    border-color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.nav-hr {
+    margin-top: -5px;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .menu-grid {
+        
+    }
+
+    .dashboard-main-grid {
+        display: BLOCK;
+        grid-template-columns: 1fr 4fr; 
+        margin-top: 30px;
+        row-gap: 20px;
+        column-gap: 20px;
+        margin-bottom: 20px
+    }
+
+    .tab-grid-heading {
+        color: rgb(97, 94, 94);
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inline-block;
+        letter-spacing:2px;
+    }
+    .tab-href {
+        float: right;
+        font-size: 17px;
+        color: rgb(73, 72, 72);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    }
+    .tab-hr{
+        background-color: white;
+        width: 100%;
+       
+    }
+    .tab-school-name {
+        color: rgb(68, 67, 67);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .tab-welcome {
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2px;
+        background-color: rgb(234, 240, 234);
+        font-size: 12px;
+    }
+    .tab-sub-grid {
+      display: grid;
+      grid-template-columns:2fr 2fr ;
+      row-gap: 10px;
+      column-gap: 10px;
+      margin-top: 40px;
+      width: 300px;
+    }
+    .tab-nav {
+        background-color: brown;
+        height: 120px;
+    }
+    .tab-nav-head {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+    .tab-nav-paragraph {
+        color: rgb(255, 255, 255); 
+    }
+    .tab-nav-link {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(116, 33, 33);
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(196, 196, 189);
+    }
+    .nav-link {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        padding: 5px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(104, 101, 101);
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+    
+
+}
+
